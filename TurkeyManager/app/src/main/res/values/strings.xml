@@ -9,4 +9,7 @@
     <string name="button7">流量管理</string>
     <string name="button9">病毒查杀</string>
     <string name="button8">电量管理</string>
+    <string name="layout_gerbage_top_txt">清理加速</string>
+    <string name="layout_gerbage_btn_txt">一键清理文件</string>
+    <string name="found">已发现</string>
 </resources>
