@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TurkeyManager</string>
+    <string name="button1">话筒监测</string>
+    <string name="button2">摄像头监测</string>
+    <string name="button3">权限管理</string>
+    <string name="button4">电话监测</string>
+    <string name="button5">短信监测</string>
+    <string name="button6">清理加速</string>
+    <string name="button7">流量管理</string>
+    <string name="button9">病毒查杀</string>
+    <string name="button8">电量管理</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_main_rocket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_micmgr"
+            android:text="@string/button1" />
+
+        <Button
+            android:id="@+id/btn_main_softmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_monmgr"
+            android:text="@string/button2" />
+
+        <Button
+            android:id="@+id/btn_main_phonemgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_rootmgr"
+            android:text="@string/button3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_main_telmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_telmgr"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:text="@string/button4" />
+
+        <Button
+            android:id="@+id/btn_main_filemgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_msgmgr"
+            android:text="@string/button5" />
+
+        <Button
+            android:id="@+id/btn_main_sdclean"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_sdclean"
+            android:text="@string/button6" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_main_netmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_netmgr"
+            android:text="@string/button7" />
+
+        <Button
+            android:id="@+id/btn_main_powmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_powmgr"
+            android:text="@string/button8" />
+        <Button
+            android:id="@+id/btn_main_pro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:drawableTop="@drawable/icon_pro"
+            android:text="@string/button9" />
+    </LinearLayout>
+</LinearLayout>
